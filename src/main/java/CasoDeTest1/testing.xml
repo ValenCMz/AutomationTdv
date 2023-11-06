@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="suite_tp3" verbose="1">
+    <parameter name="tester-name" value="Docker" />
+    <test name="Testo que el usuario se pueda loguear correctamente en la pagina web de docker">
+        <classes>
+            <class name="CasoDeTest1.Docker">
+            </class>
+        </classes>
+    </test>
+</suite>
